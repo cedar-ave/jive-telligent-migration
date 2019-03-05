@@ -45,7 +45,8 @@ For example:
 		"filename": "def_2017_05_10.zip",
 		"title": "DEF Installer (5 October 2017)",
 		"tags": "tag1,tag4,tag5"
-	},
+	}
+]
 ```
 
 **Step 8: Upload to Telligent.**
