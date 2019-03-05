@@ -1,7 +1,7 @@
 # jive-telligent-migration
 Extract binaries from Jive and upload them to Telligent
 
-The following steps rely on [Jive Search Service filters](https://developers.jivesoftware.com/api/v3/cloud/rest/SearchService.html#searchContents(List%3CString%3E,%20List%3CString%3E,%20boolean,%20boolean,%20boolean,%20boolean,%20String,%20int,%20int,%20String,%20boolean,%20String).
+The following steps rely on [Jive Search Service filters](https://developers.jivesoftware.com/api/v3/cloud/rest/SearchService.html#searchContents.
 
 ## Step 1: Get `placeID`
 https://<yourinstance>.jiveon.com/api/core/v3/places?filter=type(space,group)&fields=-resources,placeID,displayName,-id,-typeCode&count=100&startIndex=0
