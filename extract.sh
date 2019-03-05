@@ -1,6 +1,8 @@
 #!/bin/sh
 
-# A binary file in Jive may have historical versions. Each time a file is replaced in Jive, a version is created. For specified files (`ContentIDs`), this script makes a directory named with the `ContentID`, identifies the number of versions of that Jive file, creates a directory for each version, and downloads that version's file there. This is to prevent files with identical filenames overwriting one another.
+# A binary file in Jive may have historical versions. Each time a file is replaced in Jive, a version is created. For specified files (`ContentIDs`), this script:
+## (1) Makes a directory named with the `ContentID`, identifies the number of versions of that Jive file, creates a directory for each version, and downloads that version's file there (this is to prevent files with identical filenames overwriting one another)
+## (2) Appends the `updated` (not `lastActivity`) date to the end of the filename to provide a record of when that version was uploaded (the `updated` date of the first version is the same as the `published` date so it works for both the first and subsequent versions)
 
 for contentID in 1234 5678 ; do
 
