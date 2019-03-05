@@ -3,6 +3,9 @@
 # A binary file in Jive may have historical versions. Each time a file is replaced in Jive, a version is created. For specified files (`contentIDs`), this script:
 ## (1) Makes a directory named with the `contentID`, identifies the number of versions of that Jive file, creates a directory for each version, and downloads that version's file there (this is to prevent files with identical filenames overwriting one another)
 ## (2) Appends the `updated` (not `lastActivity`) date to the end of the filename to provide a record of when that version was uploaded (the `updated` date of the first version is the same as the `published` date so it works for both the first and subsequent versions)
+# Change `.zip` to the appropriate filetype below.
+
+
 
 # See the readme.md for how to find `contentID`s
 for contentID in 1234 5678 ; do
