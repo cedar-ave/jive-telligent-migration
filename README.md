@@ -52,6 +52,9 @@ For example:
 **Step 8: Upload to Telligent.**
 Run `upload-telligent.sh`.
 
+**Step 9: Create table of contents in Telligent of the uploaded files.**
+Run `create-toc.sh`.
+
 
 
 
