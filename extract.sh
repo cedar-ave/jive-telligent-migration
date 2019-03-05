@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# A binary file in Jive may have historical versions. Each time a file is replaced in Jive, a version is created. For specified files (`ContentIDs`), this script makes a directory named with the `ContentID`, identifies the number of versions of that Jive file, creates a directory for each version, and downloads that version's file there. This is to prevent files with identical filenames overwriting one another.
+
+for contentID in 1234 5678 ; do
+
 mkdir $contentID
 cd $contentID
 
