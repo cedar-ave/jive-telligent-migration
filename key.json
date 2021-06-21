@@ -1,0 +1,12 @@
+[
+	{
+		"filename": "abc_2016_04_04.zip",
+		"title": "ABC Installer (4 April 2016)",
+		"tags": "tag1,tag2,tag3"
+	},
+	{
+		"filename": "def_2017_05_10.zip",
+		"title": "DEF Installer (5 October 2017)",
+		"tags": "tag1,tag4,tag5"
+	}
+]
